@@ -1,0 +1,38 @@
+.ourClients {
+    padding-top: 60px;
+    padding-bottom: 45px;
+
+    & h2 {
+        text-align: center;
+        padding-bottom: 40px;
+        font-weight: 400;
+        font-size: 26px;    
+
+        @include respond-to('small') {
+            padding-bottom: 20px;
+            font-size: 22px;
+        }
+    }
+}
+
+.clientLists {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    @include respond-to('medium') {
+        display: block;
+        text-align: center;
+    }
+
+    &__logo {
+        flex-grow: 1;
+        flex-basis: 0;
+        text-align: center;
+
+        @include respond-to('medium') {
+            display: inline-block;
+            padding: 20px;
+        }
+    }
+}

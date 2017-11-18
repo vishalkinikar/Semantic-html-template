@@ -1,0 +1,12 @@
+// Color palette
+$color-brand:                   #358af4;
+$color-brand-darks:              #003f8e;
+$color-brand-highlight:         lighten($color-brand, 15%);
+$color-brand-shadow:            darken($color-brand, 15%);
+
+$color-brand-dark:              #ababab;
+$color-brand-dark-highlight:    lighten($color-brand, 15%);
+$color-brand-dark-shadow:       darken($color-brand, 15%);
+
+// Text
+$color-text:                    #3f3f40;

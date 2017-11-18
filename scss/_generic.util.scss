@@ -1,0 +1,44 @@
+.sectionMain {
+    margin-top: 60px;
+}
+
+.PR {
+    position: relative;
+}
+.ML34 {
+    margin-left: 34px;
+
+    @include respond-to('medium') {
+        margin-left: 4px;
+    }
+
+    @include respond-to('small') {
+        margin-left: 34px;
+    }
+}
+.ML38 {
+    margin-left: 38px;
+
+    @include respond-to('medium') {
+        margin-left: 8px;
+    }
+    
+    @include respond-to('small') {
+        margin-left: 38px;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1116px;
+    height: 100%;
+    margin: 0 auto;
+
+    @include respond-to('medium') {
+        width: 90%;
+    }
+}
+
+.cta-btn {
+    padding: 10px 0;
+}
